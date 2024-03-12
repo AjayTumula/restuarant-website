@@ -156,7 +156,7 @@ a {
     height: auto;
     width: 20%;
     margin: auto;
-}
+}   
 
 .three .offers .offer {
     height: 25vh;
@@ -213,6 +213,24 @@ a {
     .two .left .background {
         max-width: 80%;      
     }
+
+
+    .three  {
+        background: url('./assets/background-img-1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .three .offers {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 5vh 0;
+    }
 }
 
 
@@ -259,5 +277,14 @@ a {
         align-items: center;
     }
 
+    .three {
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .three .offers {
+        width: 70%;
+        margin: 5vh auto;
+    }
 
 }

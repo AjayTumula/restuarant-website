@@ -62,6 +62,11 @@ header ul {
     padding: 2rem;
 }
 
+.heading3 {
+    font-size: 2rem;
+    color:#666666;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -114,6 +119,8 @@ a {
     right: 0;
 }
 
+/* Section two */
+
 .two .left {
     position: relative;
 }
@@ -135,10 +142,34 @@ a {
     justify-content: space-around;
 }
 
-.two .right h3 {
-    color: #666666;
-    font-size: 2rem;
+
+
+/* Section  Three*/
+
+.three {
+    text-align: center;
+    margin-top: 2rem;
 }
+
+
+.three .offers .offer img {
+    height: auto;
+    width: 20%;
+    margin: auto;
+}
+
+.three .offers .offer {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.three .offers .offer h6 {
+    font-size: 1rem;
+}
+   
+
 
 /* Media Queries Section */
 
@@ -173,15 +204,15 @@ a {
         margin-left: 18%; 
     }
 
+    
     .two .left .foreground {
         max-width: 65%;
-        margin-left: 18%; 
+        margin-left: 10%; 
     }
 
     .two .left .background {
-        max-width: 100%;
+        max-width: 80%;      
     }
-    
 }
 
 

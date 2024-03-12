@@ -156,11 +156,25 @@ header ul {
     .one {
         display: grid;
         grid-template-columns: 40% auto;
+        position: relative;
     }
 
     .one .left .features {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        position: absolute;
+        width: 60%;
+    }
+
+    .one .right .background {
+        position: absolute;
+        top: -30%;
+        height: 100vh;
+        width: auto;
+    }
+
+    .one .left .features p {
+        font-size: 1rem;
     }
 
 }
